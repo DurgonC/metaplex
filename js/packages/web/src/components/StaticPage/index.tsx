@@ -262,7 +262,7 @@ export const StaticPage = (props: {
   const rightSection = <section id="right-container"></section>;
   const finalSection = (
     <section id="bottom-container">
-      <p className="bottom-title">Shop the Collection</p>
+      <p className="bottom-title">Shop collection</p>
       {liveAuctionsView}
     </section>
   );
