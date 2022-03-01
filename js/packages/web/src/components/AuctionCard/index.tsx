@@ -894,7 +894,7 @@ export const AuctionCard = ({
           }}
         >
           Your sale has been ended please view your NFTs in{' '}
-          <Link to="/artworks">My Items</Link>.
+          <Link to="/artworks">INVENTORY</Link>.
         </p>
         <Button
           onClick={() => setShowEndingBidModal(false)}
@@ -923,8 +923,8 @@ export const AuctionCard = ({
           }}
         >
           Your {auctionView.isInstantSale ? 'purchase' : 'bid'} has been
-          redeemed please view your NFTs in <Link to="/artworks">My Items</Link>
-          .
+          redeemed please view your NFTs in{' '}
+          <Link to="/artworks">INVENTORY</Link>.
         </p>
         <Button
           onClick={() => setShowRedeemedBidModal(false)}
@@ -964,7 +964,7 @@ export const AuctionCard = ({
         content={`You have claimed your item from ${creators.map(
           item => ' ' + (item.name || shortenAddress(item.address || '')),
         )}!`}
-        extraButtonText="View My Items"
+        extraButtonText="View Inventory"
         onClickExtraButton={() => history.push('/artworks')}
       />
     </div>
