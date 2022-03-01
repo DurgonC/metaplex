@@ -54,7 +54,7 @@ export const MetaplexMenu = () => {
     return (
       <>
         <Modal
-          title={<img src={'/recosiapng.svg'} />}
+          title={<img src={'https://imgur.com/xTLX0Zh.png'} />}
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
