@@ -2,18 +2,18 @@ export const footerConf = {
   showShopName: true,
   showEmailSubscriber: true,
   emailSubscriberText:
-    'Join our mailing list for updates about our artists and more.',
+    'Join our mailing list for updates on our app',
   components: [
     {
-      title: 'Company',
+      title: 'Recosia',
       links: [
         {
           label: 'About',
-          url: 'www.solana.com',
+          url: 'www.recosia.io/about',
         },
         {
           label: 'Terms of service',
-          url: 'www.solana.com',
+          url: 'www.recosia.io/tos',
         },
       ],
     },
@@ -22,19 +22,19 @@ export const footerConf = {
       links: [
         {
           label: 'FAQ',
-          url: 'www.solana.com',
+          url: 'www.recosia.io/faq',
         },
         {
           label: 'Support',
-          url: 'www.solana.com',
+          url: 'www.recosia.io/support',
         },
         {
           label: 'Privacy policy',
-          url: 'www.solana.com',
+          url: 'www.recosia.io/privacy',
         },
         {
           label: 'Your purchases',
-          url: 'www.solana.com',
+          url: 'www.recosia.io/purchases',
         },
       ],
     },
@@ -43,15 +43,15 @@ export const footerConf = {
       links: [
         {
           label: 'Instagram',
-          url: 'www.solana.com',
+          url: 'www.instagram.com/recosiaverse',
         },
         {
           label: 'Twitter',
-          url: 'www.solana.com',
+          url: 'www.twitter.com/recosiaverse',
         },
         {
           label: 'Discord',
-          url: 'www.solana.com',
+          url: 'www.discord.gg/3hrpe5YMSA',
         },
       ],
     },
